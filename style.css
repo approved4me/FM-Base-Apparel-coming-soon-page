@@ -60,12 +60,14 @@ body {
   font-size: 1rem;
   background-image: url(./images/bg-pattern-desktop.svg);
   background-repeat: no-repeat;
-  background-size:100% 100%;
+  background-size: 100% 100%;
+  background-position: center center; 
 }
 
 main {
   margin: 0 auto;
-  padding: 1rem;
+  margin-block: 1rem;
+  box-shadow: 0px 0px 20px 3px rgba(0,0,0,0.2);
   max-width: 22rem;
 }
 
@@ -161,6 +163,11 @@ article {
 
 @media only screen and (min-width: 60rem) {
 
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
 
   main {
     max-width: 60rem;
@@ -170,6 +177,29 @@ article {
     grid-template-areas:
     "logo hero_img"
     "content hero_img";
+    grid-template-columns: 3fr 2fr;
+  }
+
+  .logo {
+    padding: 3rem 6rem;
+    width: 100%;
+  }
+  
+  .content {
+    padding: 0 6rem ;
+    text-align: left; 
+  }
+
+  .subscribe {
+  margin-bottom: 6rem;
+  }
+
+  .content_image {
+    height: 100%;
+  }
+
+  .content_image img {
+    height: 100%;
   }
 
 }
