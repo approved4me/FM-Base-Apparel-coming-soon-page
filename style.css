@@ -178,7 +178,7 @@ article {
     grid-template-areas:
     "logo hero_img"
     "content hero_img";
-    grid-template-columns: 3fr 2fr;
+    grid-template-columns: 1.35fr 1fr;
   }
 
   .logo {
@@ -192,7 +192,7 @@ article {
   }
 
   .content h1 {
-    font-size: 4rem;
+    font-size: 3.5rem;
   }
 
   .subscribe {
