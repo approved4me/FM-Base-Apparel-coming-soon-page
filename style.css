@@ -56,6 +56,7 @@ body {
   max-width: 90rem;
   min-height: 100vh;
   margin: 0 auto;
+  padding: 1rem;
   font-family: 'Josefin Sans', sans-serif;
   font-size: 1rem;
   background-image: url(./images/bg-pattern-desktop.svg);
