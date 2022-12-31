@@ -10,6 +10,8 @@ Thanks for checking out this front-end coding challenge.
 
 **To do this challenge, you need a basic understanding of HTML, CSS and JavaScript.**
 
+LIVE: https://approved4me.github.io/FM-Base-Apparel-coming-soon-page/
+
 ## The challenge
 
 Your challenge is to build out this coming soon page and get it looking as close to the design as possible.
