@@ -115,7 +115,7 @@ article {
 }
 
 .subscribe {
-  margin-block: 2rem;
+  margin-block-start: 2rem;
   display: flex;
   justify-content: center;
 }
@@ -145,6 +145,7 @@ article {
   justify-content: center;
   align-items: center;
   transition: 0.3s;
+  
 }
 
 .submit:hover {
@@ -155,9 +156,20 @@ article {
   grid-area: hero_img;
 }
 
+.submit:focus {
+  outline: none;
+  border: 0.5px solid var(--primary-desaturated_red);
+}
+
+#error {
+  font-size: 0.8rem;
+  text-align: left;
+  padding: 0.6rem 2rem;
+  color: var(--primary-soft_red);
+}
+
 .attribution { font-size: 11px; text-align: center; }
 .attribution a { color: hsl(228, 45%, 44%); }
-
 
 
 /* DESKTOP MODE */
@@ -187,16 +199,12 @@ article {
   }
   
   .content {
-    padding: 0 6rem ;
+    padding: 0 6rem 6rem;
     text-align: left; 
   }
 
   .content h1 {
     font-size: 3.5rem;
-  }
-
-  .subscribe {
-  margin-bottom: 6rem;
   }
 
   .content_image {
